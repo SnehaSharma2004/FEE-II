@@ -19,10 +19,19 @@
     #user-list-container::-webkit-scrollbar {
       width: 10px; 
     }
+    .user-box{
+      height: 100px;
+      overflow: hidden;
+    }
+    .user-info h4,
+    .user-info p {
+      margin-bottom: 2px; 
+    }
+
   </style>
 </head>
 <body class="gradient-background d-flex justify-content-center align-items-center overflow-hidden">
-  <div class="container mt-5" style="width:700px; height:50px;">
+  <div class="container mt-5" style="width:600px; height:50px;">
     <div class="content-container p-4 rounded-3 shadow overflow-auto">
       <div class="heading-search">
         <header class="header mt-5 text-center">
@@ -30,11 +39,11 @@
           <p class="subtitle">Search by name, location, or gender (male/female)</p>
         </header>
         <div class="input-group mx-auto justify-content-center align-items-center">
-          <input type="text" id="filter" class="form-control rounded-3" placeholder="Search" aria-label="Search" aria-describedby="button-addon" style="max-width: 500px;">
+          <input type="text" id="filter" class="form-control rounded-3" placeholder="Search" aria-label="Search" aria-describedby="button-addon" style="max-width: 420px;">
         </div>
       </div>
       <div id="user-list-container" class="row justify-content-center overflow-auto">
-        <div id="result" class="col-12 col-md-4 col-lg-8 mt-3"></div>
+        <div id="result" class="col-12 col-md-1 col-lg-9 mt-3"></div>
       </div>
     </div>
   </div>
