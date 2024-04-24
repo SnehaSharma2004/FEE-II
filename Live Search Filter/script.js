@@ -38,8 +38,8 @@ const result = document.getElementById('result');
           userBox.classList.add("mb-3");
           userBox.classList.add("shadow-sm");
           userBox.innerHTML = `
-            <div class="user-info d-flex align-items-center flex-wrap max-height-4  0 gap-1">
-              <img class="rounded-circle mr-3 mb-4" style="width: 60px; height: 60px;" src="${item.picture}" alt="${item.userName}">
+            <div class="user-info d-flex align-items-center flex-wrap max-height-4  0 gap-3">
+              <img class="rounded-circle mr-3 mb-3" style="width: 55px; height: 55px;" src="${item.picture}" alt="${item.userName}">
               <div>
                 <h4>${item.userName}</h4>
                 <p>${item.location}</p>
